@@ -1,0 +1,4 @@
+include:
+  - project: gcbs/ordermanagement/flexbilling/flex-devops/gitlab-tools/fb-deploy
+    ref: master
+    file: cf/mediation-nodejs-deploy.yml

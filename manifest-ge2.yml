@@ -1,0 +1,8 @@
+applications:
+  - name: flex-mediation-userauth-ge2
+    memory: 1G
+    instances: 1
+    buildpack: dicf_nodejs_buildpack_1724_cflinuxfs3
+    command: node server.js
+    env:
+      LD_LIBRARY_PATH: /home/vcap/app/oracleLib4Linux/

@@ -1,0 +1,25 @@
+{"credhub":
+    [{"binding_name":null,
+        "credentials":
+        {"EDS_PD":"xxbrm-dit-app01",
+            "RABBIT_PWD":"DK2Ur1_:bAV,pS7qTW.ycLGn",
+            "authTokenUrl":"https://flex-rating-authentication-service-ge4.ausvtc01.pcf.dell.com/api/token",
+            "config.oauth.password":"dit_complex_config_user_12345",
+            "config.oauth.username":"dit_config_user",
+            "jwt.secret":"19B8437DBE518E2691BBA569B2655E31B37FC6435B3E88C3BC1658C2DDB8B0C9",
+            "mediationAuthTokenUrl":"https://flex-mediation-authentication-service-ge4.ausvtc01.pcf.dell.com/api/token",
+            "spring.cloud.config.server.git.password":"EKSzbyzqyL39zdF2aL-C",
+            "trustStorePass":"changeit",
+            "vault.nonProd.secretId":"34111898-a373-5faf-1ce0-147337db52e6",
+            "vault.secretId":"34111898-a373-5faf-1ce0-147337db52e6"
+            }
+            ,"instance_name":"credhub_dit",
+            "label":"credhub",
+            "name":"credhub_dit",
+            "plan":"default",
+            "provider":null,
+            "syslog_drain_url":null,
+            "tags":["credhub"],"volume_mounts":[]
+            }
+            ]
+        }

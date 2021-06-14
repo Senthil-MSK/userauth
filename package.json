@@ -1,0 +1,29 @@
+{
+  "name": "flex-mediation-userauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "node-oracledb": "^1.0.2",
+    "oracledb": "^5.0.0",
+    "strict-transport-security": "^0.3.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "private": true,
+  "publishConfig": {
+    "registry": "http://dcsartifacts.dell.com/artifactory/api/npm/npm"
+  }
+}

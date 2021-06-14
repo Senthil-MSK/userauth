@@ -1,0 +1,1 @@
+svc_npsubmedditadm|Complex12345|(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=obrmdidb-cname.us.dell.com)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=obrmi_rw.dit.amer.dell.com) ) )|undefined|undefined|undefined|undefined|undefined|https://flex-usage-data-service-dit.r1.pcf.dell.com/api/v2/getTelemetryReconData
